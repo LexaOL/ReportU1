@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">ReportU</string>
+    <string name="title_reporta_u">ReportaU</string>
+
+    <!-- Login -->
+    <string name="subtitle_header">Reporta. Da seguimiento.\nMejora tu campus.</string>
+    <string name="title_welcome">Bienvenido</string>
+    <string name="subtitle_welcome">Ingresa con tu cuenta institucional</string>
+    <string name="label_email">Correo institucional</string>
+    <string name="hint_email">nombre@universidad.edu</string>
+    <string name="label_password">Contraseña</string>
+    <string name="hint_password">••••••••</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="register_prompt">¿No tienes cuenta? <b>Regístrate</b></string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="forgot_password_info">Contacta a la oficina de sistemas de tu universidad para restablecer tu contraseña.</string>
+    <string name="or_divider">o</string>
+    <string name="btn_maintenance_access">Acceso para mantenimiento</string>
+    <string name="maintenance_login_title">Acceso para mantenimiento</string>
+    <string name="maintenance_login_message">Acceso exclusivo para personal de mantenimiento.</string>
+    <string name="hint_maintenance_email">mantenimiento@universidad.edu</string>
+
+    <!-- Registro -->
+    <string name="register_top_title">Crear cuenta</string>
+    <string name="register_eyebrow">Registro institucional</string>
+    <string name="register_title">Únete a ReportaU</string>
+    <string name="register_subtitle">Usa tus datos universitarios para comenzar.</string>
+    <string name="label_name">Nombre completo</string>
+    <string name="hint_name">Ej. Axel Hernández</string>
+    <string name="label_student_id">Matrícula</string>
+    <string name="hint_student_id">A01234567</string>
+    <string name="hint_password_new">Mínimo 8 caracteres</string>
+    <string name="label_role">Rol</string>
+    <string name="btn_register">Registrarme</string>
+    <string name="login_prompt">¿Ya tienes cuenta? <b>Inicia sesión</b></string>
+    <string name="register_success">¡Cuenta creada! Bienvenido a ReportaU</string>
+    <string name="role_student">Estudiante</string>
+    <string name="role_teacher">Docente</string>
+    <string name="role_staff">Personal administrativo</string>
+    <string name="role_maintenance">Mantenimiento</string>
+
+    <!-- Inicio -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_report">Reportar</string>
+    <string name="nav_history">Historial</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="logout_link"><u>Cerrar sesión</u></string>
+    <string name="home_greeting">Hola, %1$s</string>
+    <string name="home_subtitle">¿Qué necesita atención hoy?</string>
+    <string name="card_new_report_title">Nuevo reporte</string>
+    <string name="card_new_report_text">Informa un problema en el campus</string>
+    <string name="home_recent">Reportes recientes</string>
+    <string name="see_all"><u>Ver todos</u></string>
+    <string name="empty_home_title">Aún no tienes reportes</string>
+    <string name="empty_home_text">Cuando informes un problema aparecerá aquí con su seguimiento.</string>
+
+    <!-- Historial -->
+    <string name="filter_all">Todos</string>
+    <plurals name="reports_count">
+        <item quantity="one">%d reporte</item>
+        <item quantity="other">%d reportes</item>
+    </plurals>
+    <string name="empty_history_title">Sin reportes todavía</string>
+    <string name="empty_history_text">Toca «Reportar» para informar tu primer problema.</string>
+    <string name="empty_filter_title">Sin resultados</string>
+    <string name="empty_filter_text">No hay reportes con ese estado.</string>
+
+    <!-- Estados y tipos -->
+    <string name="status_pending">Pendiente</string>
+    <string name="status_progress">En proceso</string>
+    <string name="status_resolved">Solucionado</string>
+
+    <string name="cat_projector">Proyector / equipo audiovisual</string>
+    <string name="cat_lighting">Iluminación / lámparas</string>
+    <string name="cat_furniture">Mobiliario</string>
+    <string name="cat_air">Aire acondicionado</string>
+    <string name="cat_plumbing">Plomería y baños</string>
+    <string name="cat_electricity">Electricidad</string>
+    <string name="cat_network">Internet y red</string>
+    <string name="cat_cleaning">Limpieza</string>
+    <string name="cat_security">Seguridad</string>
+    <string name="cat_other">Otro</string>
+
+    <!-- Nuevo reporte -->
+    <string name="new_report_title">Nuevo reporte</string>
+    <string name="label_category">Tipo de problema</string>
+    <string name="hint_category">Selecciona una opción</string>
+    <string name="label_description">Descripción</string>
+    <string name="hint_description">Describe el problema con el mayor detalle posible…</string>
+    <string name="label_photo">Foto del problema</string>
+    <string name="photo_add">Tomar foto</string>
+    <string name="photo_hint">Ayúdanos a identificar el daño</string>
+    <string name="photo_dialog_title">Agregar foto</string>
+    <string name="photo_camera">Tomar foto</string>
+    <string name="photo_gallery">Elegir de la galería</string>
+    <string name="label_place">Ubicación</string>
+    <string name="hint_location">Edificio y salón</string>
+    <string name="btn_gps">Usar GPS</string>
+    <string name="btn_gps_busy">Buscando…</string>
+    <string name="btn_scan_qr">Escanear QR</string>
+    <string name="btn_submit_report">Enviar reporte</string>
+    <string name="gps_location_format">Ubicación GPS (%1$s, %2$s)</string>
+    <string name="report_sent">Reporte %1$s enviado</string>
+    <string name="discard_title">¿Descartar reporte?</string>
+    <string name="discard_message">Perderás la información que escribiste.</string>
+    <string name="discard_keep">Seguir editando</string>
+    <string name="discard_confirm">Descartar</string>
+
+    <!-- Escanear QR -->
+    <string name="title_scan_qr">Escanear QR</string>
+    <string name="scan_title">Apunta al código QR del salón</string>
+    <string name="scan_hint">Mantén el teléfono estable para escanear</string>
+    <string name="scan_detected_label">Ubicación detectada</string>
+    <string name="scan_not_detected">Aún sin detectar</string>
+    <string name="scan_not_detected_hint">Escanea el código QR del salón</string>
+    <string name="btn_continue_report">Continuar con el reporte</string>
+    <string name="scan_no_permission_title">Necesitamos acceso a la cámara</string>
+    <string name="scan_no_permission_hint">Toca aquí para activarlo en Ajustes</string>
+    <string name="scan_error_title">No se pudo iniciar la cámara</string>
+    <string name="scan_error_hint">Cierra e inténtalo de nuevo</string>
+
+    <!-- Detalle -->
+    <string name="detail_title">Detalle del reporte</string>
+    <string name="label_report">Reporte</string>
+    <string name="label_type">Tipo</string>
+    <string name="photo_none">Sin foto adjunta</string>
+    <string name="detail_status_title">Estado del reporte</string>
+    <string name="step_pending">Por completar</string>
+    <string name="detail_notes_title">Comentarios del equipo</string>
+    <string name="note_format">%1$s · %2$s</string>
+    <string name="btn_back_to_history">Volver al historial</string>
+
+    <!-- Mantenimiento -->
+    <string name="maintenance_eyebrow">Panel de mantenimiento</string>
+    <string name="maintenance_greeting">%1$s,\n%2$s</string>
+    <string name="stat_pending">Pendientes</string>
+    <string name="stat_progress">En proceso</string>
+    <string name="stat_today">Hoy</string>
+    <string name="filter_all_statuses">Todos los estados</string>
+    <string name="filter_all_buildings">Todos los edificios</string>
+    <string name="maintenance_assigned">Reportes asignados</string>
+    <string name="maintenance_active">activos</string>
+    <string name="maintenance_empty">No hay reportes con estos filtros.</string>
+
+    <!-- Revisar reporte -->
+    <string name="review_title">Revisar reporte</string>
+    <string name="label_reported_by">Reportado por</string>
+    <string name="reporter_format">%1$s · %2$s</string>
+    <string name="label_change_status">Cambiar estado</string>
+    <string name="label_comment">Comentario</string>
+    <string name="helper_optional">Opcional</string>
+    <string name="hint_comment">Agrega una nota sobre el avance…</string>
+    <string name="btn_save_changes">Guardar cambios</string>
+    <string name="review_saved">Cambios guardados</string>
+    <string name="review_no_changes">No hay cambios que guardar</string>
+
+    <!-- Notificaciones -->
+    <string name="notif_recent">Recientes</string>
+    <string name="notif_empty">Aún no tienes notificaciones.\nTe avisaremos cuando cambie el estado de tus reportes.</string>
+    <string name="notif_received">Recibimos tu reporte %1$s</string>
+    <string name="notif_progress">Tu reporte %1$s está En proceso</string>
+    <string name="notif_resolved">Tu reporte %1$s fue solucionado</string>
+    <string name="notif_pending">Tu reporte %1$s volvió a Pendiente</string>
+    <string name="notif_comment">Nuevo comentario en tu reporte %1$s</string>
+
+    <!-- Sesión -->
+    <string name="logout_title">¿Cerrar sesión?</string>
+    <string name="logout_message">Tus reportes se conservan en este dispositivo.</string>
+    <string name="logout_confirm">Cerrar sesión</string>
+
+    <!-- Acciones comunes -->
+    <string name="action_cancel">Cancelar</string>
+    <string name="char_counter">%1$d/%2$d</string>
+
+    <!-- Errores -->
+    <string name="error_email_required">Ingresa tu correo institucional</string>
+    <string name="error_email_invalid">Ingresa un correo válido</string>
+    <string name="error_email_taken">Ya existe una cuenta con este correo</string>
+    <string name="error_password_required">Ingresa tu contraseña</string>
+    <string name="error_password_short">Usa al menos %1$d caracteres</string>
+    <string name="error_invalid_credentials">Correo o contraseña incorrectos</string>
+    <string name="error_not_maintenance">Esta cuenta no es de mantenimiento</string>
+    <string name="error_name_short">Escribe tu nombre completo</string>
+    <string name="error_student_id_invalid">Usa de 4 a 15 letras o números</string>
+    <string name="error_student_id_taken">Ya existe una cuenta con esta matrícula</string>
+    <string name="error_category_required">Selecciona el tipo de problema</string>
+    <string name="error_description_short">Describe el problema (mínimo %1$d caracteres)</string>
+    <string name="error_location_required">Indica el edificio y el salón</string>
+    <string name="error_status_required">Selecciona un estado</string>
+    <string name="error_camera">No se pudo abrir la cámara</string>
+    <string name="error_camera_permission">Permite el acceso a la cámara para tomar la foto</string>
+    <string name="error_photo">No se pudo cargar la foto</string>
+    <string name="error_location_permission">Permite el acceso a la ubicación para usar el GPS</string>
+    <string name="error_gps_disabled">Activa la ubicación (GPS) de tu teléfono</string>
+    <string name="error_gps_unavailable">No se pudo obtener tu ubicación. Inténtalo de nuevo.</string>
+    <string name="error_generic">Algo salió mal. Inténtalo de nuevo.</string>
+
+    <!-- Accesibilidad -->
+    <string name="cd_back">Regresar</string>
+    <string name="cd_toggle_password">Mostrar u ocultar contraseña</string>
+    <string name="cd_show_password">Mostrar contraseña</string>
+    <string name="cd_hide_password">Ocultar contraseña</string>
+    <string name="cd_photo_preview">Vista previa de la foto</string>
+    <string name="cd_remove_photo">Quitar foto</string>
+    <string name="cd_report_photo">Foto del reporte</string>
+</resources>

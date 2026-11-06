@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Filtros rectangulares del historial -->
+    <style name="Widget.ReportU.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_bg</item>
+        <item name="chipStrokeColor">@color/chip_stroke</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/chip_text</item>
+        <item name="android:textSize">11sp</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipCornerRadius">2dp</item>
+        <item name="chipMinHeight">36dp</item>
+        <item name="ensureMinTouchTargetSize">false</item>
+    </style>
+
+    <!-- Texto pequeño en mayúsculas con espaciado ("PANEL DE MANTENIMIENTO") -->
+    <style name="Eyebrow">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Títulos grandes de peso ligero ("Hola, Axel") -->
+    <style name="LightTitle">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <!-- Etiqueta de estado -->
+    <style name="Pill">
+        <item name="android:textSize">11sp</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:paddingVertical">3dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.ReportU.Rounded4" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+</resources>

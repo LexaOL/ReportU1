@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ubicaciones del campus. La ÚLTIMA debe ser "Otra ubicación". -->
+    <string-array name="campus_places">
+        <item>Edificio A</item>
+        <item>Edificio B</item>
+        <item>Edificio C</item>
+        <item>Edificio D</item>
+        <item>Biblioteca</item>
+        <item>Cafetería</item>
+        <item>Auditorio</item>
+        <item>Laboratorios</item>
+        <item>Canchas deportivas</item>
+        <item>Estacionamiento</item>
+        <item>Áreas verdes y jardines</item>
+        <item>Baños</item>
+        <item>Accesos y puertas</item>
+        <item>Otra ubicación</item>
+    </string-array>
+</resources>
